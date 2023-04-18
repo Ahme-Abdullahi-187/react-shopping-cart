@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <div className='my-10 mx-auto w-3/4 bg-red-300'>
+      <div className='my-10 mx-auto w-3/4'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
